@@ -16,30 +16,11 @@
 header > h2 {
     text-align: center;
     margin: 1%;
-    font-size:2cm;
+    font-size:3cm;
     font-family:'Bonheur Royale';
 
 }
 
-/* header */
-
-/*
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    outline: none;
-
-    p{
-    font-size: 1cm;
-    
-}
-}*/
-
-
-/* section */
 #pageimg {
     background-image: url(/-beaver/img/밤하늘.jpg);
     background-size: cover;
@@ -123,4 +104,10 @@ a {
     width: 300px;
     height: 300px;
     object-fit: cover;
+}
+
+.textbox > p {
+    text-align: center;
+    font-family: 'Caramel';
+    font-size: 2cm;
 }
