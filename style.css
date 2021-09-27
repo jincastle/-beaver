@@ -33,8 +33,8 @@ header {
 
 
 .pagename {
-    background-image: url("./-beaver/img/노을.png");
-    background-size: cover;
+    background-image: url("/-beaver/img/노을.png");
+    background-size: cover auto;
     background-repeat: no-repeat;
     align-items: center;
     display: flex;
