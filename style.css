@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
 /* all */
 * {
     margin: 0;
 	padding:0;
 	color:#000;
-	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-family: 'ZCOOL QingKe HuangYou';
 	box-sizing: border-box;
     
 }
@@ -19,6 +19,7 @@ h3 {
     margin: 1%;
     font-size:1cm;
     font-family:'Bonheur Royale';
+    letter-spacing: 2px;
 
 }
 
@@ -44,6 +45,7 @@ header {
 .pagename h2{
     color: black;
     font-family: 'Explora';
+    letter-spacing: 5px;
 }
 
 #pagetitle {
@@ -62,6 +64,9 @@ header {
     border-color: lightsalmon;
     margin-left: 20%;
     margin-right: 20%;
+    padding: 20px;
+    align-items: center;
+    display: flex;
 }
 .imgs-ani {
     top: 50px;
@@ -86,6 +91,7 @@ header {
     font-size: auto;
     float: center;
     margin-top: 20px;
+    font-family: 'Gothic+A1';
 }
 
 .fn-img {
