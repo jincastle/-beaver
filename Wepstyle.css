@@ -3,122 +3,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
-/* all */
-* {
+
+#page {
+    text-align: center;
     margin: 0;
-	padding:0;
-	color:#000;
-	font-family: 'ZCOOL QingKe HuangYou';
-	box-sizing: border-box;
+    padding: 0;
+    box-sizing : content-box;
+}
+
+.page-head {
+    background-image: url(/-beaver/img/노을.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 300px;
     
 }
 
-/* header */
-h3 {
-    text-align:unset;
-    margin: 1%;
-    font-size:1cm;
-    font-family:'Bonheur Royale';
-    letter-spacing: 2px;
-
+.page-head #page-name strong{
+    font-size: 13ch;
+    font-family: 'Bonheur Royale';
+    color: #aaaa
 }
 
-header {
-    width: 100%;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-.pagename {
-    background-image: url('/-beaver/img/밤하늘.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items: center;
+#character {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
     display: flex;
-    justify-content: center;
-    margin: 0;
-}
-
-
-.pagename h2{
-    color: black;
-    font-family: 'Explora';
-    letter-spacing: 5px;
-    font-weight: 500;
-}
-
-#pagetitle {
-    text-align: center;
-    font-size: 60px;
-}
-
-
-#me {
-    margin-top: 5%;
-    width: auto;
-    height: auto;
-    text-align: center;
+    align-items: center;
     border-width: 6px;
     border-style: solid;
     border-color: lightsalmon;
+}
+
+#character .character-img img {
+    margin-left: 10%;
+    height: 450px;
+    width: 450px;
+}
+
+#character article {
     margin-left: 20%;
-    margin-right: 20%;
-    padding: 60px;
-    align-items: center;
-    display: flex;
-}
-.imgs-ani {
-    top: 50px;
-    width: 300px;
-    height: 300px;
-    float: left center;
-    margin-right: 40px;
+    text-align: left;
 }
 
-#me.my-text {
-    background-color:white;
-    border: 50px;
-    width: 300px;
-    height: 300px;
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-top: 20px;
+#character article h2 p {
+    text-align: left;
 }
 
-
-
-.my-info {
-    display: block;
-    float: left;
-    font-size: auto;
-    float: center;
-    margin-top: 20px;
-    font-family: 'Gothic+A1';
-}
-
-.fn-img {
-    text-align: center;
-}
-
-.fn-img > li{
+#character ul li{
     list-style: none;
-    display: inline-block;
+    float: left;
+    margin-left: 20px;
 }
 
-.link-img {
-    width: 80px;
+.fn-img img {
+    width : 80px;
     height: 80px;
 }
-/*timeline*/
 
+.textbox p{
+    font-family: 'Caramel';
+    font-size: 80px;
+    margin: 0;
+}
 
 section#timeline {
-    width: 80%;
-    margin: 20% auto;
-    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
     position: relative;
 }
 
@@ -155,10 +112,10 @@ section#timeline article div.inner {
 
 section#timeline article div.inner span.date{
     display: block;
-    padding: 20px 5px;
+    padding: 20px 10px;
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 30px;
     top: 0;
     left: 50%;
     margin: 0 0 0 -20px;
@@ -172,12 +129,12 @@ section#timeline article div.inner span.date{
 }
 
 section#timeline article div.inner span.year span {
-    display: block;
+    display: flex;
     text-align: center;
 }
 
 section#timeline article div.inner span.date span.year {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 section#timeline article div.inner h2 {
@@ -254,16 +211,7 @@ section#timeline article:nth-child(2n+2) div.inner {
 
     }
 
-
-
-
-/* i like */
-.textbox {
-    margin-top: 5%;
-}
-
 #container {
-    margin-top: 5%;
     text-align: center;
 }
 
@@ -273,15 +221,13 @@ section#timeline article:nth-child(2n+2) div.inner {
     object-fit: cover;
 }
 
-.textbox > p {
+.like-name > p {
     text-align: center;
     font-family: 'Caramel';
-    font-size: 2cm;
+    font-size: 80px;
 }
 
-
-
-#footer-img {
+footer {
     margin-top: 5%;
     background-color:papayawhip;
     height: 150px;
@@ -291,6 +237,3 @@ section#timeline article:nth-child(2n+2) div.inner {
 
 }
 
-.fn-img li {
-    margin-left: 50px;
-}
