@@ -213,12 +213,15 @@ section#timeline article:nth-child(2n+2) div.inner {
 
 #container {
     text-align: center;
+    display: block;
 }
+
 
 .picture {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    
 }
 
 .like-name > p {
@@ -233,7 +236,5 @@ footer {
     height: 150px;
     align-items: center;
     display: flex;
-    justify-content: center;
-
 }
 
