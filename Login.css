@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+
+header .header_inner {
+    height: 200px;
+    width: 400px;
+    background-image: url(/-beaver/img/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    align-content: center;
+    border: 1px solid #bbb;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    flex: 1;
+    text-align: left;
+}
+
+
+
+.container .login {
+    border: 1px solid #bbb;
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container .login #IDlogin #IDlogin {
+    margin-top: 10px;
+}
+
+
+.container .login #IDlogin .id_line input{
+    margin-left: 10px;
+}
+
+.container .login #IDlogin .btn_line {
+    margin: 5px auto;
+}
+
+.container .login #IDlogin .btn_line .butten{
+    width: 200px;
+    height: 100px;
+}
+
+.container .find ul{
+    width: 400px;
+    list-style: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.container .find ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
