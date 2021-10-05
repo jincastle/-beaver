@@ -9,3 +9,11 @@
     background-color: thistle;
     border: 3px solid red;
 }
+
+.containerr {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 250px 170px;
+    grid-row: 140px 200px;
+    grid-gap: 5px;
+}
