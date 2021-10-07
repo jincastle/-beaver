@@ -53,6 +53,7 @@
 
 #character article h2 p {
     text-align: left;
+    display: flex;
 }
 
 #character ul li{
