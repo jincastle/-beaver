@@ -1,0 +1,31 @@
+div.colorBox {
+    display: flex;
+    margin: 20px;
+    background-color: #709fb0;
+    height: 400px;
+    border-radius: 10px;
+    align-items: flex-end;
+  }
+  
+  span {
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    color:white;
+    width: 60px;
+  }
+  
+  span:hover {
+    background-color: rgba(20, 20, 20, 0.336);
+  }
+  
+  div.buttonBox {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+  }
+  
+  p {
+    font-size: 20px
+  }
